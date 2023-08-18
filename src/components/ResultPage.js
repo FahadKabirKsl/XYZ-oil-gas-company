@@ -1,12 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import {
-  PDFDownloadLink,
-  Document,
-  Page,
-  Text,
-  StyleSheet,
-} from "@react-pdf/renderer";
+import { PDFDownloadLink } from "@react-pdf/renderer";
 import PDFDocument from "./PDFDocument";
 
 const ResultPage = () => {
