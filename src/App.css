@@ -28,6 +28,11 @@
   color: #61dafb;
 }
 
+.table-container {
+  max-height: 25vh; /* Set your desired height here */
+  overflow-y: scroll;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
